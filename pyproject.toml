@@ -1,0 +1,15 @@
+[project]
+name = "niyamr-ai-agent"
+version = "0.1.0"
+description = "AI agent for analyzing Universal Credit Act 2025"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-generativeai>=0.8.5",
+    "langchain-core>=0.3.80",
+    "langchain-google-genai>=2.0.10",
+    "pdfplumber>=0.11.8",
+    "pydantic>=2.12.4",
+    "python-dotenv>=1.2.1",
+    "streamlit>=1.51.0",
+]
