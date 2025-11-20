@@ -23,6 +23,8 @@ The agent uses **LangChain**, **Google Gemini AI**, and **pdfplumber** to provid
 
 ✔️  **LangChain Integration**: Modern orchestration with Google Gemini 1.5 Flash for optimal performance
 
+✔️  **Interactive Web UI**: Beautiful Streamlit interface for easy document upload and analysis
+
 🏗 **Project Structure**
 ------------------------
 
@@ -41,7 +43,8 @@ The agent uses **LangChain**, **Google Gemini AI**, and **pdfplumber** to provid
 |    └── final_report.json          # Structured analysis report
 |    └── extracted_text.txt         # Full extracted text
 |
-├── 📜 main.py                      # Main orchestrator
+├── 📜 main.py                      # Main 
+├── 📜 streamlit_app.py             # Streamlit frontend 
 ├── 📜 pyproject.toml               # UV dependencies
 ├── 📜 .env                         # API configuration
 ├── 📜 .env.example                 # Environment template
