@@ -14,7 +14,7 @@ ENV/
 .env
 
 # Output
-output/*.json
+#output/*.json
 
 # IDE
 .vscode/

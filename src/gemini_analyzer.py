@@ -77,7 +77,7 @@ Analyze the following Universal Credit Act 2025 and provide a summary in exactly
 Be concise and specific. Extract actual section references where possible.
 
 TEXT:
-{text[:20000]}
+{text}
 """
         
         # Use structured output WITHOUT method parameter
