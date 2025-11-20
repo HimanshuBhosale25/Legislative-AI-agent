@@ -126,7 +126,7 @@ Return a JSON object with these exact keys:
 - "record_keeping": Record-keeping or reporting requirements
 
 TEXT:
-{text[:20000]}
+{text}
 """
         
         # Use structured output without method parameter
@@ -187,7 +187,7 @@ Determine:
 Return JSON with keys: rule, status, evidence, confidence
 
 TEXT:
-{text[:20000]}
+{text}
 """
             
             try:
